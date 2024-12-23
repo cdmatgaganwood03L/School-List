@@ -83,17 +83,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-#DATABASES = {
-    #'default': {
-        #'ENGINE': 'django.db.backends.postgresql',
-        #'NAME': 'your_db_name',
-        #'USER': 'your_db_user',
-        #'PASSWORD': 'your_db_password',
-        #'HOST': 'localhost',
-        #'PORT': '5432',
-    #}
-#}
-
 
 
 # Password validation
@@ -115,9 +104,6 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# Internationalization
-# https://docs.djangoproject.com/en/5.1/topics/i18n/
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
@@ -128,12 +114,8 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.1/howto/static-files/
-
 STATIC_URL = 'static/'
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 STATIC_ROOT = BASE_DIR / 'staticfiles' # Directory where static files will be collected
 
 #DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
